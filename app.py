@@ -43,4 +43,3 @@ elif opcion == "Número de moles (n)":
         st.success(f"n = {n:.3f} mol")
 
 st.image("QUIMI1.jpg")
-
