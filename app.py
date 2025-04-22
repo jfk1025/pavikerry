@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.image("QUIMI3.jpg")
+
 # Constante de los gases ideales en atm·L/mol·K
 R = 0.0821
 
@@ -39,3 +41,6 @@ elif opcion == "Número de moles (n)":
     if st.button("Calcular número de moles"):
         n = (P * V) / (R * T)
         st.success(f"n = {n:.3f} mol")
+
+st.image("QUIMI1.jpg")
+
